@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Management System</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial,sans-serif;
+            background:#f4f8fc;
+            text-align:center;
+        }
+
+        h1{
+            color:#0b3d91;
+            margin-top:20px;
+        }
+
+        .logo{
+            width:120px;
+            height:120px;
+            border-radius:50%;
+        }
+
+        hr{
+            width:90%;
+            border:1px solid #0b3d91;
+        }
+
+        .menu{
+            margin:20px;
+        }
+
+        .menu a{
+            text-decoration:none;
+            color:white;
+            background:#0b3d91;
+            padding:10px 20px;
+            margin:5px;
+            border-radius:5px;
+            font-weight:bold;
+        }
+
+        .menu a:hover{
+            background:orange;
+        }
+
+        /* Carousel */
+
+        .slider{
+            width:700px;
+            height:350px;
+            margin:auto;
+            overflow:hidden;
+            position:relative;
+            border-radius:10px;
+        }
+
+        .slider img{
+            width:700px;
+            height:350px;
+            position:absolute;
+            left:0;
+            top:0;
+            opacity:0;
+            animation:slide 9s infinite;
+        }
+
+        .slider img:nth-child(1){
+            animation-delay:0s;
+        }
+
+        .slider img:nth-child(2){
+            animation-delay:3s;
+        }
+
+        .slider img:nth-child(3){
+            animation-delay:6s;
+        }
+
+        @keyframes slide{
+
+            0%{
+                opacity:0;
+            }
+
+            10%{
+                opacity:1;
+            }
+
+            30%{
+                opacity:1;
+            }
+
+            40%{
+                opacity:0;
+            }
+
+            100%{
+                opacity:0;
+            }
+
+        }
+
+        h2{
+            color:#0b3d91;
+        }
+
+        h3{
+            color:#d35400;
+        }
+
+        p{
+            width:80%;
+            margin:auto;
+            font-size:18px;
+            line-height:1.8;
+        }
+        .course-section{
+    text-align:center;
+    margin:40px 0;
+}
+
+.course-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.course-box{
+    width:220px;
+    background:white;
+    border:1px solid #0b3d91;
+    border-radius:10px;
+    padding:20px;
+    font-size:18px;
+    font-weight:bold;
+    color:#0b3d91;
+    box-shadow:0 0 10px lightgray;
+}
+
+.course-box:hover{
+    background:#0b3d91;
+    color:white;
+}
+
+        
+
+        footer{
+            background:#0b3d91;
+            color:white;
+            margin-top:30px;
+            padding:15px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>VSN COLLEGE OF ENGINEERING & TECHNOLOGY</h1>
+
+<img class="logo" src="https://static.vecteezy.com/system/resources/previews/009/634/761/non_2x/vsn-letter-logo-design-with-polygon-shape-vsn-polygon-and-cube-shape-logo-design-vsn-hexagon-logo-template-white-and-black-colors-vsn-monogram-business-and-real-estate-logo-vector.jpg">
+
+<hr>
+
+<div class="menu">
+
+<a href="index.html">Home</a>
+
+<a href="about.html">About Us</a>
+
+<a href="courses.html">Courses</a>
+
+<a href="registration.html">Registration</a>
+<a href="Gallery.html">Gallery</a>
+
+<a href="faculty.html">Faculty</a>
+<a href="student.html">Student</a>
+<a href="parent.html">Parent</a>
+<a href="privacy.html">Privacy Policy</a>
+
+<a href="contact.html">Contact</a>
+
+
+</div>
+
+<hr>
+
+<!-- Image Carousel -->
+
+<div class="slider">
+
+<img src="https://png.pngtree.com/thumb_back/fw800/background/20241210/pngtree-aerial-view-of-a-vibrant-and-modern-college-campus-featuring-architecture-image_16736726.jpg">
+
+<img src="https://images.pexels.com/photos/159740/library-la-trobe-study-students-159740.jpeg?cs=srgb&dl=pexels-pixabay-159740.jpg&fm=jpg">
+
+<img src="https://e0.pxfuel.com/wallpapers/812/618/desktop-wallpaper-university-college-campus.jpg">
+
+</div>
+
+<h2>Welcome to VSN College of Engineering & Technology</h2>
+
+<p>
+The College Management System is designed to simplify academic and administrative activities. It provides an easy platform for students, faculty and administrators to manage college information efficiently.
+</p>
+
+<h3>Vision</h3>
+
+<p>
+To provide quality education through modern technology.
+</p>
+
+<h3>Mission</h3>
+
+<p>
+To create an efficient and paperless college management system.
+</p>
+<div class="course-section">
+
+<h2>Courses Offered</h2>
+
+<div class="course-container">
+
+<div class="course-box">Computer Science Engineering (CSE)</div>
+
+<div class="course-box">Artificial Intelligence & Data Science (AI&DS)</div>
+
+<div class="course-box">Electronics & Communication Engineering (ECE)</div>
+<div class="course-box">Biotechnology B.Tech (BT) </div>
+
+<div class="course-box">Mechanical Engineering (MECH)</div>
+
+<div class="course-box">Electrical & Electronics Engineering (EEE)</div>
+
+
+<div class="course-box">Mechanical Engineering (MECH)</div>
+
+<div class="course-box">Civil Engineering (CIVIL)</div>
+
+</div>
+
+</div>
+<footer>
+
+<p>© 2026 VSN College of Engineering & Technology</p>
+
+<p>All Rights Reserved</p>
+
+</footer>
+
+</body>
+</html>
